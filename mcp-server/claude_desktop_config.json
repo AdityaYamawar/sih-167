@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "satquery-ai": {
+      "command": "node",
+      "args": ["/home/aditya/Downloads/sih-26167/mcp-server/index.js"],
+      "env": {
+        "SATQUERY_PROVIDER": "claude",
+        "SATQUERY_API_KEY": "YOUR_API_KEY_HERE",
+        "SATQUERY_BASE_URL": "http://localhost:3000"
+      }
+    }
+  }
+}

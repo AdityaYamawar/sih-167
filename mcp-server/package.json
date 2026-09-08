@@ -1,0 +1,15 @@
+{
+  "name": "satquery-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for SatQuery AI — satellite image analysis with bounding box detection",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.24.0"
+  }
+}
